@@ -1,0 +1,182 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding-left: 100PX;
+    padding-top: 50px;
+}
+main{
+    display: flex;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 16px;
+}
+
+/* top banner styles */
+.top-banner{
+    background-color:black;
+    color: white;
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    border-radius: 20px;
+}
+.top-banner img{
+    width: 580px;
+    padding-top: 35px;
+    padding-right: 70px;
+}
+.top-blog{
+    padding-left: 106px;
+    padding-top: 50px;
+}
+#watch-btn{
+    background-color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* page button section */
+.page-btn-section{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    margin-top: 130px;
+    border-radius: 10px;
+    margin-left: 106px;
+}
+.upcomming-btn{
+    padding: 25px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.group-btn{
+    padding: 25px;
+    margin-left: 40px;
+
+}
+.blog-btn{
+    padding: 25px;
+    margin-left: 60px;
+}
+.page-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+#blog-btn{
+    background-color: red;
+    color: white;
+}
+
+/* blog section style */
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    margin-left: 70px;
+    margin-top: 130px;
+}
+.blogs{
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 10px;
+    width: 312px;
+    height: 362px;
+}
+.blog-des{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.transfer-btn{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: black;
+}
+.icon{
+    float: left;
+}
+.comment{
+    padding-left: 50px;
+}
+/* footer styles */
+footer{
+    color: white;
+    width: 1500px;
+    height: 444px;
+    background-color: black;
+    margin-top: 130px;
+}
+.footer-top{
+    font-size: 40px;
+    padding-top: 110px;
+    padding-left: 650px;
+    padding-bottom: 50px;
+}
+.hr-line{
+    color: gray;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.nav-btn{
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+}
+.social-sites{
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.social-icon{
+    color: white;
+    margin-left: 20px;
+}
+
+/*-------------------
+      match page styles
+---------------------- */
+.match-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    margin-left: 70px;
+    margin-top: 130px;   
+}
+.match-scedu{
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;   
+}
+.flags{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#vs{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.scedu{
+    margin-left: 30px;
+}
+#time-date{
+    margin-left: 30px;
+    color: gray;
+}
