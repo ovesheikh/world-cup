@@ -44,7 +44,8 @@ p{
 .title-des-mobile{
     display: none;
 }
- /* Watch button style */
+
+/* Watch button style */
 .center {
     width: 180px;
     height: 40px;
@@ -97,8 +98,8 @@ svg {
 .upcomming-btn{
     padding: 10px 20px;
     text-decoration: none;
-    background-color: white;
-    color: black;
+    background-color: rgb(57, 91, 100);
+    color: white;
     border-radius: 5px;
 }
 .group-btn{
@@ -111,90 +112,14 @@ svg {
 .blog-btn{
     padding: 10px 80px;
     text-decoration: none;
-    background-color: rgb(57, 91, 100);
-    color: white;
     border-radius: 5px;
+    background-color: white;
+    color: black;
 }
 .page-btn{
     font-weight: 600;
     padding-top: 45px;
     margin-left: 30px;
-}
-
-/*----------------------
-          blog section style
-  ---------------------------- */
-
-.all-blogs{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 25px;
-    margin-left: 70px;
-    margin-top: 130px;
-}
-.blogs{
-    border: 1px solid rgb(193, 191, 191);
-    border-radius: 10px;
-    width: 312px;
-    height: 362px;
-}
-.blog-des{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-.transfer-btn{
-    text-decoration: none;
-    border: 1px solid gray;
-    padding: 5px 12px;
-    border-radius: 5px;
-    color: black;
-}
-.icon{
-    float: left;
-}
-.comment{
-    padding-left: 50px;
-}
-.view{
-    display: none;
-}
-/*---------------------
-          footer styles 
-  ------------------------*/
-footer{
-    color: white;
-    width: 1500px;
-    height: 444px;
-    background-color: black;
-    margin-top: 80px;
-}
-.footer-top{
-    font-size: 40px;
-    padding-top: 110px;
-    padding-left: 650px;
-    padding-bottom: 50px;
-}
-.hr-line{
-     border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.footer-nav{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-.nav-btn{
-    text-decoration: none;
-    color: white;
-    padding-left: 35px;
-}
-.social-sites{
-    margin-left: 600px;
-    margin-top: 30px;
-    font-size: 30px;
-}
-.social-icon{
-    color: white;
-    margin-left: 40px;
 }
 
 /*-------------------
@@ -228,6 +153,44 @@ footer{
 #time-date{
     margin-left: 30px;
     color: gray;
+}
+/*---------------------
+          footer styles 
+  ------------------------*/
+footer{
+    color: white;
+    width: 1500px;
+    height: 444px;
+    background-color: black;
+    margin-top: 130px;
+}
+.footer-top{
+    font-size: 40px;
+    padding-top: 110px;
+    padding-left: 650px;
+    padding-bottom: 50px;
+}
+.hr-line{
+     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.nav-btn{
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+}
+.social-sites{
+    margin-left: 600px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.social-icon{
+    color: white;
+    margin-left: 40px;
 }
 
 /* --------------------
@@ -298,20 +261,33 @@ footer{
         padding-top: 40px;
     }
 
-    /* blog section styles */
+    /* match section styles */
 
-    .all-blogs{
+    .match-section{
         grid-template-columns: repeat(1,1fr);
         margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 100px;
     }
-    .blog-section img{
-        width: 100%;
-    }
-    .blogs{
+    .match-scedu{
         border-radius: 10px;
         width: 250%;
         height: 200%;    
         padding-bottom: 5%;  
+    }
+    .flags{
+        align-items: center;
+        margin-left: 40px;
+    }
+    .flags img{
+        width: 250%;
+    }
+    #vs{
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+    .scedu{
+        padding-left: 25%;
     }
 
     /* footer  styles */
@@ -380,37 +356,29 @@ footer{
     }
 
     /* blog section styles */
-    .all-blogs{
+    .match-section{
         grid-template-columns: repeat(2,1fr);
-        padding-top: 5px;
+        padding-top: 5%;
         padding-left: 30px;
     } 
-    .blogs{
+    .match-scedu{
         padding-bottom: 5%;
         width: 650px;
-        height: 500px;
+        height: 400px;
     }   
-    .blogs img{
-        width: 100%;
+    .flags img{
+        width: 200%;
     }
-    .view{
-        display: block;
-        padding-top: 60px;
-        padding-left: 49%;
+    #vs{
+        padding-left: 180px;
+        padding-right: 90px;
     }
-    .view-btn{
-        align-items: center;
-        text-decoration: none;
-        padding: 10px 40px;
-        background-color: rgb(57, 91, 100);
-        color: white;
-        font-weight: 600;
-        border-radius: 5px;
+    .scedu{
+        padding-top: 10%;
+        padding-left: 25%;
     }
-
     /* footer styles */
     .footer-top{
         padding-left: 45%;
     }
 }
-
